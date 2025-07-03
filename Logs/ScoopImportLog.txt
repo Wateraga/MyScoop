@@ -1,0 +1,1189 @@
+PS C:\WINDOWS\system32> scoop bucket add extras
+Checking repo... OK
+The extras bucket was added successfully.
+PS C:\WINDOWS\system32> scoop install extras/firefox
+Installing 'firefox' (140.0.2) [64bit] from 'extras' bucket
+Firefox%20Setup%20140.0.2.exe (69.4 MB) [=====================================================================] 100%
+Checking hash of Firefox%20Setup%20140.0.2.exe ... ok.
+Extracting Firefox%20Setup%20140.0.2.exe ... done.
+Linking D:\Software\PackageManagers\Scoop\apps\firefox\current => D:\Software\PackageManagers\Scoop\apps\firefox\140.0.2
+Creating shim for 'firefox'.
+Making D:\Software\PackageManagers\Scoop\shims\firefox.exe a GUI binary.
+Creating shortcut for Firefox (firefox.exe)
+Creating shortcut for Firefox Profile Manager (firefox.exe)
+Persisting distribution
+Persisting profile
+Running post_install script...done.
+'firefox' (140.0.2) was installed successfully!
+Notes
+-----
+To set profile 'Scoop' as *DEFAULT*, or profiles/settings was lost after update:
+- Run 'Firefox Profile Manager', choose 'Scoop' then click 'Start Firefox'.
+- Visit 'about:profiles' page in Firefox to check *DEFAULT* profile.
+For details: https://support.mozilla.org/en-US/kb/profile-manager-create-remove-switch-firefox-profiles
+PS C:\WINDOWS\system32> scoop import "D:\Downloads\ScoopBucketAppList.json"
+'scoop_repo' has been set to 'https://github.com/ScoopInstaller/Scoop'
+'scoop_branch' has been set to 'master'
+WARN  The 'main' bucket already exists. To add this bucket again, first remove it by running 'scoop bucket rm main'.
+WARN  The 'extras' bucket already exists. To add this bucket again, first remove it by running 'scoop bucket rm extras'.
+WARN  The 'versions' bucket already exists. To add this bucket again, first remove it by running 'scoop bucket rm versions'.
+Checking repo... OK
+The nirsoft bucket was added successfully.
+Checking repo... OK
+The sysinternals bucket was added successfully.
+Checking repo... OK
+The nerd-fonts bucket was added successfully.
+Checking repo... OK
+The nonportable bucket was added successfully.
+Checking repo... OK
+The anderlli0053_DEV-tools bucket was added successfully.
+Checking repo... OK
+The kkzzhizhou_scoop-apps bucket was added successfully.
+WARN  The 'okibcn_ScoopMaster' bucket already exists. To add this bucket again, first remove it by running 'scoop bucket rm okibcn_ScoopMaster'.
+WARN  '7zip' (24.09) is already installed.
+Use 'scoop update 7zip' to install a new version.
+Installing 'aria2' (1.37.0-1) [64bit] from 'main' bucket
+aria2-1.37.0-win-64bit-build1.zip (2.4 MB) [=======================================================================] 100%
+Checking hash of aria2-1.37.0-win-64bit-build1.zip ... ok.
+Extracting aria2-1.37.0-win-64bit-build1.zip ... done.
+Linking D:\Software\PackageManagers\Scoop\apps\aria2\current => D:\Software\PackageManagers\Scoop\apps\aria2\1.37.0-1
+Creating shim for 'aria2c'.
+'aria2' (1.37.0-1) was installed successfully!
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'AutoHotkey' (2.0.19) [64bit] from 'extras' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 4bc719|OK  |    24MiB/s|D:/Software/PackageManagers/Scoop/cache/AutoHotkey#2.0.19#0f6bc64.zip
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of AutoHotkey_2.0.19.zip ... ok.
+Extracting AutoHotkey_2.0.19.zip ... done.
+Running installer script...done.
+Linking D:\Software\PackageManagers\Scoop\apps\AutoHotkey\current => D:\Software\PackageManagers\Scoop\apps\AutoHotkey\2.0.19
+Creating shim for 'autohotkey'.
+Making D:\Software\PackageManagers\Scoop\shims\autohotkey.exe a GUI binary.
+Creating shim for 'autohotkey32'.
+Making D:\Software\PackageManagers\Scoop\shims\autohotkey32.exe a GUI binary.
+Running post_install script...done.
+'AutoHotkey' (2.0.19) was installed successfully!
+Notes
+-----
+Install specific version of Interpreter(Default: Latest 1.x):
+- 'autohotkey /script "D:\Software\PackageManagers\Scoop\apps\AutoHotkey\current\UX\install-version.ahk" [version]'
+Uninstall Sub-versions of Interpreter:
+- 'autohotkey /script "D:\Software\PackageManagers\Scoop\apps\AutoHotkey\current\UX\ui-uninstall.ahk"'
+See also: https://github.com/ScoopInstaller/Extras/issues/10066
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'cinebenchr23' (23.2.0.0) [64bit] from 'okibcn_ScoopMaster' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 8557df|OK  |   104MiB/s|D:/Software/PackageManagers/Scoop/cache/cinebenchr23#23.2.0.0#9d85911.zip
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of CinebenchR23.zip ... ok.
+Extracting CinebenchR23.zip ... done.
+Linking D:\Software\PackageManagers\Scoop\apps\cinebenchr23\current => D:\Software\PackageManagers\Scoop\apps\cinebenchr23\23.2.0.0
+Creating shortcut for Cinebench R23 (Cinebench.exe)
+'cinebenchr23' (23.2.0.0) was installed successfully!
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'cpu-z' (2.15) [64bit] from 'extras' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 1c0256|OK  |    20MiB/s|D:/Software/PackageManagers/Scoop/cache/cpu-z#2.15#7f8a22b.zip
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of cpu-z_2.15-en.zip ... ok.
+Extracting cpu-z_2.15-en.zip ... done.
+Linking D:\Software\PackageManagers\Scoop\apps\cpu-z\current => D:\Software\PackageManagers\Scoop\apps\cpu-z\2.15
+Creating shim for 'cpuz'.
+Making D:\Software\PackageManagers\Scoop\shims\cpuz.exe a GUI binary.
+Creating shortcut for CPU-Z (cpuz_x64.exe)
+Persisting cpuz.ini
+'cpu-z' (2.15) was installed successfully!
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'curl' (8.14.1_2) [64bit] from 'main' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 7b8771|OK  |    34MiB/s|D:/Software/PackageManagers/Scoop/cache/curl#8.14.1_2#47a7180.xz
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of curl-8.14.1_2-win64-mingw.tar.xz ... ok.
+Extracting curl-8.14.1_2-win64-mingw.tar.xz ... done.
+Linking D:\Software\PackageManagers\Scoop\apps\curl\current => D:\Software\PackageManagers\Scoop\apps\curl\8.14.1_2
+Creating shim for 'curl'.
+'curl' (8.14.1_2) was installed successfully!
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'dark' (3.14.1) [64bit] from 'main' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: c57998|OK  |    35MiB/s|D:/Software/PackageManagers/Scoop/cache/dark#3.14.1#e838800.zip
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of dark-3.14.1.zip ... ok.
+Extracting dark-3.14.1.zip ... done.
+Linking D:\Software\PackageManagers\Scoop\apps\dark\current => D:\Software\PackageManagers\Scoop\apps\dark\3.14.1
+Creating shim for 'dark'.
+'dark' (3.14.1) was installed successfully!
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'DotNetDesktopRuntime8-installer' (8.0.0) [64bit] from 'anderlli0053_DEV-tools' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 8c3b49|OK  |    10MiB/s|D:/Software/PackageManagers/Scoop/cache/DotNetDesktopRuntime8-installer#8.0.0#2d372dc.exe
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of windowsdesktop-runtime-8.0.0-win-x64.exe ... ok.
+Linking D:\Software\PackageManagers\Scoop\apps\DotNetDesktopRuntime8-installer\current => D:\Software\PackageManagers\Scoop\apps\DotNetDesktopRuntime8-installer\8.0.0
+Creating shortcut for Install .NET 8.0 Desktop Runtime (x64) (windowsdesktop-runtime-win-x64.exe)
+Running post_install script...done.
+'DotNetDesktopRuntime8-installer' (8.0.0) was installed successfully!
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'everything' (1.4.1.1028) [64bit] from 'extras' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 875e39|OK  |   2.5MiB/s|D:/Software/PackageManagers/Scoop/cache/everything#1.4.1.1028#9f8fd23.zip
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of Everything-1.4.1.1028.x64.zip ... ok.
+Extracting Everything-1.4.1.1028.x64.zip ... done.
+Running pre_install script...done.
+Linking D:\Software\PackageManagers\Scoop\apps\everything\current => D:\Software\PackageManagers\Scoop\apps\everything\1.4.1.1028
+Creating shim for 'Everything'.
+Making D:\Software\PackageManagers\Scoop\shims\everything.exe a GUI binary.
+Creating shortcut for Everything (Everything.exe)
+Running post_install script...done.
+'everything' (1.4.1.1028) was installed successfully!
+Notes
+-----
+To add Everything to right-click context menu, run:
+reg import "D:\Software\PackageManagers\Scoop\apps\everything\current\install-context.reg"
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'exiftool' (13.31) [64bit] from 'main' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 250baf|OK  |   5.5MiB/s|D:/Software/PackageManagers/Scoop/cache/exiftool#13.31#b654de7.zip
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of exiftool-13.31_64.zip ... ok.
+Extracting exiftool-13.31_64.zip ... done.
+Running pre_install script...done.
+Linking D:\Software\PackageManagers\Scoop\apps\exiftool\current => D:\Software\PackageManagers\Scoop\apps\exiftool\13.31
+Creating shim for 'exiftool'.
+Creating shim for 'exiftool(-k)'.
+'exiftool' (13.31) was installed successfully!
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'sudo' (0.2020.01.26) [64bit] from 'main' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 81eabc|OK  |   447KiB/s|D:/Software/PackageManagers/Scoop/cache/sudo#0.2020.01.26#7cd9a23.ps1
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of sudo.ps1 ... ok.
+Linking D:\Software\PackageManagers\Scoop\apps\sudo\current => D:\Software\PackageManagers\Scoop\apps\sudo\0.2020.01.26
+Creating shim for 'sudo'.
+'sudo' (0.2020.01.26) was installed successfully!
+Installing 'explorerpatcher' (22621.4317.67.1_b93337a) [64bit] from 'anderlli0053_DEV-tools' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 824625|OK  |   7.0MiB/s|D:/Software/PackageManagers/Scoop/cache/explorerpatcher#22621.4317.67.1_b93337a#d808fe0.exe
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of ep_setup.exe ... ok.
+Running installer script...done.
+Linking D:\Software\PackageManagers\Scoop\apps\explorerpatcher\current => D:\Software\PackageManagers\Scoop\apps\explorerpatcher\22621.4317.67.1_b93337a
+'explorerpatcher' (22621.4317.67.1_b93337a) was installed successfully!
+Notes
+-----
+Wiki: <https://github.com/valinet/ExplorerPatcher/wiki>
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'ffmpeg' (7.1.1) [64bit] from 'main' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 8c2826|OK  |   7.4MiB/s|D:/Software/PackageManagers/Scoop/cache/ffmpeg#7.1.1#a0eb7ca.7z
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of ffmpeg-7.1.1-full_build.7z ... ok.
+Extracting ffmpeg-7.1.1-full_build.7z ... done.
+Linking D:\Software\PackageManagers\Scoop\apps\ffmpeg\current => D:\Software\PackageManagers\Scoop\apps\ffmpeg\7.1.1
+Creating shim for 'ffmpeg'.
+Creating shim for 'ffplay'.
+Creating shim for 'ffprobe'.
+Persisting fonts
+'ffmpeg' (7.1.1) was installed successfully!
+WARN  'firefox' (140.0.2) is already installed.
+Use 'scoop update firefox' to install a new version.
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'fluent-terminal-np_ScoopInstaller' (0.7.7.0) [64bit] from 'anderlli0053_DEV-tools' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 6d52c4|OK  |   2.8MiB/s|D:/Software/PackageManagers/Scoop/cache/fluent-terminal-np_ScoopInstaller#0.7.7.0#c56ab9f.zip
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of FluentTerminal.Package_0.7.7.0.zip ... ok.
+Extracting FluentTerminal.Package_0.7.7.0.zip ... done.
+Running installer script...done.
+Linking D:\Software\PackageManagers\Scoop\apps\fluent-terminal-np_ScoopInstaller\current => D:\Software\PackageManagers\Scoop\apps\fluent-terminal-np_ScoopInstaller\0.7.7.0
+Persisting Settings
+Running post_install script...done.
+'fluent-terminal-np_ScoopInstaller' (0.7.7.0) was installed successfully!
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'furmark' (2.8.2.0) [64bit] from 'extras' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: b61bd1|OK  |    40MiB/s|D:/Software/PackageManagers/Scoop/cache/furmark#2.8.2.0#4c9616f.zip
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of FurMark_2.8.2.0_win64.zip ... ok.
+Extracting FurMark_2.8.2.0_win64.zip ... done.
+Linking D:\Software\PackageManagers\Scoop\apps\furmark\current => D:\Software\PackageManagers\Scoop\apps\furmark\2.8.2.0
+Creating shim for 'furmark'.
+Creating shortcut for FurMark (FurMark_GUI.exe)
+'furmark' (2.8.2.0) was installed successfully!
+WARN  'git' (2.50.0.2) is already installed.
+Use 'scoop update git' to install a new version.
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'github' (3.5.0) [64bit] from 'extras' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: adb231|OK  |    47MiB/s|D:/Software/PackageManagers/Scoop/cache/github#3.5.0#8033f57.nupkg
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of GitHubDesktop-3.5.0-x64-full.nupkg ... ok.
+Extracting GitHubDesktop-3.5.0-x64-full.nupkg ... done.
+Linking D:\Software\PackageManagers\Scoop\apps\github\current => D:\Software\PackageManagers\Scoop\apps\github\3.5.0
+Creating shim for 'GitHubDesktop'.
+Making D:\Software\PackageManagers\Scoop\shims\githubdesktop.exe a GUI binary.
+Creating shortcut for GitHub Desktop (GitHubDesktop.exe)
+'github' (3.5.0) was installed successfully!
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'gpu-z' (2.66.0) [64bit] from 'extras' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 8a307d|OK  |   6.1MiB/s|D:/Software/PackageManagers/Scoop/cache/gpu-z#2.66.0#cd95556.exe
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of GPU-Z.2.66.0.exe ... ok.
+Linking D:\Software\PackageManagers\Scoop\apps\gpu-z\current => D:\Software\PackageManagers\Scoop\apps\gpu-z\2.66.0
+Creating shim for 'GPU-Z'.
+Making D:\Software\PackageManagers\Scoop\shims\gpu-z.exe a GUI binary.
+Creating shortcut for GPU-Z (GPU-Z.exe)
+'gpu-z' (2.66.0) was installed successfully!
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'hwinfo' (8.28-5770) [64bit] from 'extras' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 68f10d|OK  |    29MiB/s|D:/Software/PackageManagers/Scoop/cache/hwinfo#8.28-5770#1d9e9b6.zip
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of hwi_828.zip ... ok.
+Extracting hwi_828.zip ... done.
+Running pre_install script...done.
+Linking D:\Software\PackageManagers\Scoop\apps\hwinfo\current => D:\Software\PackageManagers\Scoop\apps\hwinfo\8.28-5770
+Creating shim for 'HWiNFO'.
+Making D:\Software\PackageManagers\Scoop\shims\hwinfo.exe a GUI binary.
+Creating shortcut for HWiNFO (HWiNFO64.exe)
+Persisting HWiNFO64.INI
+Persisting HWiNFO32.INI
+'hwinfo' (8.28-5770) was installed successfully!
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'imageglass' (9.2.0.1208) [64bit] from 'anderlli0053_DEV-tools' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 78504f|OK  |    42MiB/s|D:/Software/PackageManagers/Scoop/cache/imageglass#9.2.0.1208#b348707.zip
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of ImageGlass_9.2.0.1208_x64.zip ... ok.
+Extracting ImageGlass_9.2.0.1208_x64.zip ... done.
+Running pre_install script...done.
+Linking D:\Software\PackageManagers\Scoop\apps\imageglass\current => D:\Software\PackageManagers\Scoop\apps\imageglass\9.2.0.1208
+Creating shim for 'ImageGlass'.
+Making D:\Software\PackageManagers\Scoop\shims\imageglass.exe a GUI binary.
+Creating shim for 'igcmd'.
+Making D:\Software\PackageManagers\Scoop\shims\igcmd.exe a GUI binary.
+Creating shortcut for ImageGlass (ImageGlass.exe)
+Persisting Themes
+Persisting igconfig.json
+'imageglass' (9.2.0.1208) was installed successfully!
+Notes
+-----
+If this app doesn't work maybe you need to clean 'D:\Software\PackageManagers\Scoop\apps\imageglass\current\igconfig.json'
+and reinstall 'D:\Software\PackageManagers\Scoop\apps\imageglass\current\Themes'.
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'innounp' (2.64.5) [64bit] from 'main' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 0b0922|OK  |   5.6MiB/s|D:/Software/PackageManagers/Scoop/cache/innounp#2.64.5#826e29b.zip
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of innounp-2.zip ... ok.
+Extracting innounp-2.zip ... done.
+Linking D:\Software\PackageManagers\Scoop\apps\innounp\current => D:\Software\PackageManagers\Scoop\apps\innounp\2.64.5
+Creating shim for 'innounp'.
+'innounp' (2.64.5) was installed successfully!
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'librehardwaremonitor' (0.9.4) [64bit] from 'extras' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: ff0059|OK  |    19MiB/s|D:/Software/PackageManagers/Scoop/cache/librehardwaremonitor#0.9.4#b9105a5.zip
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of LibreHardwareMonitor-net472.zip ... ok.
+Extracting LibreHardwareMonitor-net472.zip ... done.
+Linking D:\Software\PackageManagers\Scoop\apps\librehardwaremonitor\current => D:\Software\PackageManagers\Scoop\apps\librehardwaremonitor\0.9.4
+Creating shortcut for Libre Hardware Monitor (LibreHardwareMonitor.exe)
+'librehardwaremonitor' (0.9.4) was installed successfully!
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'libreoffice' (25.2.4) [64bit] from 'extras' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 775818|OK  |   238KiB/s|D:/Software/PackageManagers/Scoop/cache/libreoffice#25.2.4#763e337.msi_
+Download: a1a6af|OK  |    50MiB/s|D:/Software/PackageManagers/Scoop/cache/LibreOffice_25.2.4_Win_x86-64.msi
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of LibreOffice_25.2.4_Win_x86-64.msi ... ok.
+Running pre_install script...done.
+Linking D:\Software\PackageManagers\Scoop\apps\libreoffice\current => D:\Software\PackageManagers\Scoop\apps\libreoffice\25.2.4
+Creating shortcut for LibreOffice\LibreOffice (soffice.exe)
+Creating shortcut for LibreOffice\LibreOffice Base (sbase.exe)
+Creating shortcut for LibreOffice\LibreOffice Calc (scalc.exe)
+Creating shortcut for LibreOffice\LibreOffice Draw (sdraw.exe)
+Creating shortcut for LibreOffice\LibreOffice Impress (simpress.exe)
+Creating shortcut for LibreOffice\LibreOffice Math (smath.exe)
+Creating shortcut for LibreOffice\LibreOffice Writer (swriter.exe)
+'libreoffice' (25.2.4) was installed successfully!
+Notes
+-----
+If you are upgrading from portable version, you can migrate settings by copying
+"D:\Software\PackageManagers\Scoop\persist\libreoffice\Data" to "%AppData%\LibreOffice"
+'libreoffice' suggests installing 'extras/vcredist2022'.
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'localsend' (1.17.0) [64bit] from 'extras' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 591c91|OK  |    55MiB/s|D:/Software/PackageManagers/Scoop/cache/localsend#1.17.0#77dbec6.zip
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of LocalSend-1.17.0-windows-x86-64.zip ... ok.
+Extracting LocalSend-1.17.0-windows-x86-64.zip ... done.
+Linking D:\Software\PackageManagers\Scoop\apps\localsend\current => D:\Software\PackageManagers\Scoop\apps\localsend\1.17.0
+Creating shim for 'localsend_app'.
+Making D:\Software\PackageManagers\Scoop\shims\localsend_app.exe a GUI binary.
+Creating shim for 'localsend'.
+Making D:\Software\PackageManagers\Scoop\shims\localsend.exe a GUI binary.
+Creating shortcut for LocalSend (localsend_app.exe)
+Persisting settings.json
+'localsend' (1.17.0) was installed successfully!
+ERROR <app> missing
+Usage: scoop install <app> [options]
+ERROR <app> missing
+Usage: scoop install <app> [options]
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'mpc-hc' (1.7.13) [64bit] from 'extras' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 572f10|OK  |    38MiB/s|D:/Software/PackageManagers/Scoop/cache/mpc-hc#1.7.13#d508d10.7z
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of MPC-HC.1.7.13.x64.7z ... ok.
+Extracting MPC-HC.1.7.13.x64.7z ... done.
+Running pre_install script...done.
+Linking D:\Software\PackageManagers\Scoop\apps\mpc-hc\current => D:\Software\PackageManagers\Scoop\apps\mpc-hc\1.7.13
+Creating shim for 'mpc-hc64'.
+Making D:\Software\PackageManagers\Scoop\shims\mpc-hc64.exe a GUI binary.
+Creating shim for 'mpc-hc'.
+Making D:\Software\PackageManagers\Scoop\shims\mpc-hc.exe a GUI binary.
+Creating shortcut for MPC-HC x64 (mpc-hc64.exe)
+Persisting mpc-hc64.ini
+Persisting mpc-hc.ini
+Persisting default.mpcpl
+'mpc-hc' (1.7.13) was installed successfully!
+Notes
+-----
+MPC-HC is not under development since 2017. Please switch to something else.
+ERROR <app> missing
+Usage: scoop install <app> [options]
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'notepads-np' (1.5.6.0) [64bit] from 'nonportable' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 812d6a|OK  |    30MiB/s|D:/Software/PackageManagers/Scoop/cache/notepads-np#1.5.6.0#6b84e56.msixbundle
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of Notepads_1.5.6.0_x86_x64_arm64.msixbundle ... ok.
+Running installer script...done.
+Linking D:\Software\PackageManagers\Scoop\apps\notepads-np\current => D:\Software\PackageManagers\Scoop\apps\notepads-np\1.5.6.0
+Running post_install script...done.
+'notepads-np' (1.5.6.0) was installed successfully!
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'npcap' (1.82) [64bit] from 'anderlli0053_DEV-tools' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 615e22|OK  |   1.2MiB/s|D:/Software/PackageManagers/Scoop/cache/npcap#1.82#3459af3.exe
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of npcap-1.82.exe ... ok.
+Running pre_install script...THIS APPLICATION INSTALLER HAS NO SILENT INSTALLATION SWITCH, A INSTALLATION PROMPT WILL APPEAR IN A FEW MOMENTS.
+done.
+Linking D:\Software\PackageManagers\Scoop\apps\npcap\current => D:\Software\PackageManagers\Scoop\apps\npcap\1.82
+'npcap' (1.82) was installed successfully!
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'OandORegEditor-Portable' (12.0.2172) [64bit] from 'anderlli0053_DEV-tools' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 7b44ca|OK  |   1.2MiB/s|D:/Software/PackageManagers/Scoop/cache/OandORegEditor-Portable#12.0.2172#7058645.zip
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of ooregeditor.zip ... ok.
+Extracting ooregeditor.zip ... done.
+Running pre_install script...done.
+Linking D:\Software\PackageManagers\Scoop\apps\OandORegEditor-Portable\current => D:\Software\PackageManagers\Scoop\apps\OandORegEditor-Portable\12.0.2172
+Creating shortcut for O&O RegEditor (OORegEdt.exe)
+Persisting OORegEdt.ini
+'OandORegEditor-Portable' (12.0.2172) was installed successfully!
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'OandOShutUp10-Portable' (1.9.1444) [64bit] from 'anderlli0053_DEV-tools' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 1bf44f|OK  |   2.0MiB/s|D:/Software/PackageManagers/Scoop/cache/OandOShutUp10-Portable#1.9.1444#9edbdd4.exe
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of OOSU10.exe ... ok.
+Running pre_install script...done.
+Linking D:\Software\PackageManagers\Scoop\apps\OandOShutUp10-Portable\current => D:\Software\PackageManagers\Scoop\apps\OandOShutUp10-Portable\1.9.1444
+Creating shortcut for O&O ShutUp10++ (OOSU10.exe)
+Persisting OOSU10.ini
+'OandOShutUp10-Portable' (1.9.1444) was installed successfully!
+WARN  error: Could not find a part of the path 'D:\Software\PackageManagers\Scoop\workspace\occt.json'.
+Couldn't find manifest for 'occt' at 'D:\Software\PackageManagers\Scoop\\workspace\occt.json'.
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'oh-my-posh' (26.13.0) [64bit] from 'main' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 75110c|OK  |   2.6MiB/s|D:/Software/PackageManagers/Scoop/cache/oh-my-posh#26.13.0#04c9add.zip
+Download: 36615d|OK  |    41MiB/s|D:/Software/PackageManagers/Scoop/cache/oh-my-posh#26.13.0#92fb792.exe
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of themes.zip ... ok.
+Checking hash of posh-windows-amd64.exe ... ok.
+Extracting themes.zip ... done.
+Linking D:\Software\PackageManagers\Scoop\apps\oh-my-posh\current => D:\Software\PackageManagers\Scoop\apps\oh-my-posh\26.13.0
+Creating shim for 'oh-my-posh'.
+'oh-my-posh' (26.13.0) was installed successfully!
+Notes
+-----
+Refer to 'https://ohmyposh.dev/docs/installation/prompt' for shell specific configurations.
+ERROR <app> missing
+Usage: scoop install <app> [options]
+ERROR <app> missing
+Usage: scoop install <app> [options]
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'paint.net' (5.1.8) [64bit] from 'extras' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: ebbd7f|OK  |    36MiB/s|D:/Software/PackageManagers/Scoop/cache/paint.net#5.1.8#3044bcc.zip
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of paint.net.5.1.8.portable.x64.zip ... ok.
+Extracting paint.net.5.1.8.portable.x64.zip ... done.
+Running pre_install script...done.
+Linking D:\Software\PackageManagers\Scoop\apps\paint.net\current => D:\Software\PackageManagers\Scoop\apps\paint.net\5.1.8
+Creating shim for 'paintdotnet'.
+Making D:\Software\PackageManagers\Scoop\shims\paintdotnet.exe a GUI binary.
+Creating shortcut for paint.net (PaintDotNet.exe)
+Persisting Effects
+Persisting FileTypes
+Persisting Shapes
+Persisting UserFiles
+Persisting PaintDotNet.AppSettings.json
+'paint.net' (5.1.8) was installed successfully!
+Notes
+-----
+Windows 7 SP1 and Windows 8.1 are no longer supported.
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'pe-sieve' (0.4.1) [64bit] from 'main' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: c15ddf|OK  |   5.4MiB/s|D:/Software/PackageManagers/Scoop/cache/pe-sieve#0.4.1#875dc52.exe
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of pe-sieve64.exe ... ok.
+Linking D:\Software\PackageManagers\Scoop\apps\pe-sieve\current => D:\Software\PackageManagers\Scoop\apps\pe-sieve\0.4.1
+Creating shim for 'pe-sieve'.
+'pe-sieve' (0.4.1) was installed successfully!
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'powertoys' (0.92.0) [64bit] from 'extras' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 967be8|OK  |    59MiB/s|D:/Software/PackageManagers/Scoop/cache/powertoys#0.92.0#5547c45.exe
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of PowerToysUserSetup-0.92.0-x64.exe ... ok.
+Running installer script...done.
+Linking D:\Software\PackageManagers\Scoop\apps\powertoys\current => D:\Software\PackageManagers\Scoop\apps\powertoys\0.92.0
+Creating shortcut for PowerToys (PowerToys.exe)
+Running post_install script...done.
+'powertoys' (0.92.0) was installed successfully!
+Notes
+-----
+Add PowerToys context menu option by running:
+Invoke-Expression -Command "D:\Software\PackageManagers\Scoop\apps\powertoys\current\install-context.ps1"
+
+If an error occurs when updating or uninstalling, execute the following command then retry:
+`Stop-Process -Name 'explorer'`
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'prime95' (30.19b20) [64bit] from 'extras' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 5c1ba9|OK  |   2.8MiB/s|D:/Software/PackageManagers/Scoop/cache/prime95#30.19b20#8ef224b.zip
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of p95v3019b20.win64.zip ... ok.
+Extracting p95v3019b20.win64.zip ... done.
+Linking D:\Software\PackageManagers\Scoop\apps\prime95\current => D:\Software\PackageManagers\Scoop\apps\prime95\30.19b20
+Creating shim for 'prime95'.
+Making D:\Software\PackageManagers\Scoop\shims\prime95.exe a GUI binary.
+Creating shortcut for Prime95 (prime95.exe)
+'prime95' (30.19b20) was installed successfully!
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'pwsh' (7.5.2) [64bit] from 'main' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 6f212d|OK  |   3.8MiB/s|D:/Software/PackageManagers/Scoop/cache/pwsh#7.5.2#82e3a80.zip
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of PowerShell-7.5.2-win-x64.zip ... ok.
+Extracting PowerShell-7.5.2-win-x64.zip ... done.
+Running pre_install script...done.
+Linking D:\Software\PackageManagers\Scoop\apps\pwsh\current => D:\Software\PackageManagers\Scoop\apps\pwsh\7.5.2
+Creating shim for 'pwsh'.
+Creating shortcut for PowerShell Core (pwsh.exe)
+Persisting Microsoft.VSCode_profile.ps1
+Persisting Microsoft.PowerShell_profile.ps1
+Persisting profile.ps1
+Running post_install script...done.
+'pwsh' (7.5.2) was installed successfully!
+Notes
+-----
+Since Scoop uses pwsh.exe internally, to update PowerShell Core itself,
+run `scoop update pwsh` from Windows PowerShell, i.e. powershell.exe.
+
+Add PowerShell Core as a explorer context menu by running:
+'D:\Software\PackageManagers\Scoop\apps\pwsh\current\install-explorer-context.reg'
+For file context menu, run 'D:\Software\PackageManagers\Scoop\apps\pwsh\current\install-file-context.reg'
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'python' (3.13.5) [64bit] from 'main' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: cc1f3b|OK  |    53MiB/s|D:/Software/PackageManagers/Scoop/cache/python#3.13.5#63b3287.exe
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of python-3.13.5-amd64.exe ... ok.
+Running pre_install script...done.
+Running installer script...done.
+Linking D:\Software\PackageManagers\Scoop\apps\python\current => D:\Software\PackageManagers\Scoop\apps\python\3.13.5
+Creating shim for 'python3'.
+Creating shim for 'idle'.
+Creating shim for 'idle3'.
+Adding D:\Software\PackageManagers\Scoop\apps\python\current\Scripts to your path.
+Adding D:\Software\PackageManagers\Scoop\apps\python\current to your path.
+Persisting Scripts
+Persisting Lib\site-packages
+Running post_install script...
+done.
+'python' (3.13.5) was installed successfully!
+Notes
+-----
+Allow applications and third-party installers to find python by running:
+"D:\Software\PackageManagers\Scoop\apps\python\current\install-pep-514.reg"
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'QuickCPU' (5.1.0.0) [64bit] from 'extras' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: e935b7|OK  |    29MiB/s|D:/Software/PackageManagers/Scoop/cache/QuickCPU#5.1.0.0#ee5306a.msi
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of QuickCpuSetup.msi ... ok.
+Extracting QuickCpuSetup.msi ... done.
+Linking D:\Software\PackageManagers\Scoop\apps\QuickCPU\current => D:\Software\PackageManagers\Scoop\apps\QuickCPU\5.1.0.0
+Creating shortcut for Quick CPU (QuickCPU.exe)
+'QuickCPU' (5.1.0.0) was installed successfully!
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'rtss' (7.3.6) [64bit] from 'extras' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 34fb2a|OK  |   4.1MiB/s|D:/Software/PackageManagers/Scoop/cache/rtss#7.3.6#aafd062.zip
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of %5BGuru3D.com%5D-RTSS.zip ... ok.
+Extracting %5BGuru3D.com%5D-RTSS.zip ... done.
+Running pre_install script...done.
+Linking D:\Software\PackageManagers\Scoop\apps\rtss\current => D:\Software\PackageManagers\Scoop\apps\rtss\7.3.6
+Creating shim for 'RTSS'.
+Making D:\Software\PackageManagers\Scoop\shims\rtss.exe a GUI binary.
+Creating shortcut for RivaTuner Statistics Server (RTSS.exe)
+Persisting Plugins\Client\Overlays
+Persisting Profiles
+Running post_install script...done.
+'rtss' (7.3.6) was installed successfully!
+'rtss' suggests installing 'extras/msiafterburner'.
+'rtss' suggests installing 'extras/vcredist2022'.
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'spotify' (1.2.66.447.g4e37e896) [64bit] from 'extras' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: f81dd4|OK  |    72MiB/s|D:/Software/PackageManagers/Scoop/cache/spotify#1.2.66.447.g4e37e896#eedfe2f.exe
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of SpotifyFullSetupX64.exe ... ok.
+Running installer script...done.
+Linking D:\Software\PackageManagers\Scoop\apps\spotify\current => D:\Software\PackageManagers\Scoop\apps\spotify\1.2.66.447.g4e37e896
+Creating shortcut for Spotify (Spotify.exe)
+'spotify' (1.2.66.447.g4e37e896) was installed successfully!
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'ss' (6.1) [64bit] from 'anderlli0053_DEV-tools' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 2844e9|OK  |   207KiB/s|D:/Software/PackageManagers/Scoop/cache/ss#6.1#3c864ef.7z
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of ss-v6.1.7z ... ok.
+Extracting ss-v6.1.7z ... done.
+Running pre_install script...done.
+Linking D:\Software\PackageManagers\Scoop\apps\ss\current => D:\Software\PackageManagers\Scoop\apps\ss\6.1
+Creating shim for 'ss'.
+'ss' (6.1) was installed successfully!
+Notes
+-----
+Type ss -h before using it for the first time to learn how it works.
+Visit https://github.com/okibcn/ss for more information.
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'startallback' (3.6.10) [64bit] from 'anderlli0053_DEV-tools' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: e3d645|OK  |    23MiB/s|D:/Software/PackageManagers/Scoop/cache/startallback#3.6.10#3b05eae.7z
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of StartAllBack_3.6.10_setup.exe ... ok.
+Extracting StartAllBack_3.6.10_setup.exe ... done.
+Linking D:\Software\PackageManagers\Scoop\apps\startallback\current => D:\Software\PackageManagers\Scoop\apps\startallback\3.6.10
+Creating shortcut for StartAllBack (StartAllBackCfg.exe)
+'startallback' (3.6.10) was installed successfully!
+WARN  'sudo' (0.2020.01.26) is already installed.
+Use 'scoop update sudo' to install a new version.
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'sysinternals' (20250505) [64bit] from 'extras' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 7ab680|OK  |    41MiB/s|D:/Software/PackageManagers/Scoop/cache/sysinternals#20250505#709d6d3.zip
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of SysinternalsSuite.zip ... ok.
+Extracting SysinternalsSuite.zip ... done.
+Linking D:\Software\PackageManagers\Scoop\apps\sysinternals\current => D:\Software\PackageManagers\Scoop\apps\sysinternals\20250505
+Creating shim for 'accesschk'.
+Creating shim for 'accesschk64'.
+Creating shim for 'AccessEnum'.
+Making D:\Software\PackageManagers\Scoop\shims\accessenum.exe a GUI binary.
+Creating shim for 'ADExplorer'.
+Making D:\Software\PackageManagers\Scoop\shims\adexplorer.exe a GUI binary.
+Creating shim for 'ADInsight'.
+Making D:\Software\PackageManagers\Scoop\shims\adinsight.exe a GUI binary.
+Creating shim for 'adrestore'.
+Creating shim for 'Autologon'.
+Making D:\Software\PackageManagers\Scoop\shims\autologon.exe a GUI binary.
+Creating shim for 'Autoruns'.
+Making D:\Software\PackageManagers\Scoop\shims\autoruns.exe a GUI binary.
+Creating shim for 'Autoruns64'.
+Making D:\Software\PackageManagers\Scoop\shims\autoruns64.exe a GUI binary.
+Creating shim for 'autorunsc'.
+Creating shim for 'autorunsc64'.
+Creating shim for 'Bginfo'.
+Making D:\Software\PackageManagers\Scoop\shims\bginfo.exe a GUI binary.
+Creating shim for 'Bginfo64'.
+Making D:\Software\PackageManagers\Scoop\shims\bginfo64.exe a GUI binary.
+Creating shim for 'Cacheset'.
+Making D:\Software\PackageManagers\Scoop\shims\cacheset.exe a GUI binary.
+Creating shim for 'Clockres'.
+Creating shim for 'Clockres64'.
+Creating shim for 'Contig'.
+Creating shim for 'Contig64'.
+Creating shim for 'Coreinfo'.
+Creating shim for 'Dbgview'.
+Making D:\Software\PackageManagers\Scoop\shims\dbgview.exe a GUI binary.
+Creating shim for 'Desktops'.
+Making D:\Software\PackageManagers\Scoop\shims\desktops.exe a GUI binary.
+Creating shim for 'disk2vhd'.
+Making D:\Software\PackageManagers\Scoop\shims\disk2vhd.exe a GUI binary.
+Creating shim for 'disk2vhd64'.
+Making D:\Software\PackageManagers\Scoop\shims\disk2vhd64.exe a GUI binary.
+Creating shim for 'diskext'.
+Creating shim for 'diskext64'.
+Creating shim for 'Diskmon'.
+Making D:\Software\PackageManagers\Scoop\shims\diskmon.exe a GUI binary.
+Creating shim for 'DiskView'.
+Making D:\Software\PackageManagers\Scoop\shims\diskview.exe a GUI binary.
+Creating shim for 'du'.
+Creating shim for 'du64'.
+Creating shim for 'efsdump'.
+Creating shim for 'FindLinks'.
+Creating shim for 'FindLinks64'.
+Creating shim for 'handle'.
+Creating shim for 'handle64'.
+Creating shim for 'hex2dec'.
+Creating shim for 'hex2dec64'.
+Creating shim for 'junction'.
+Creating shim for 'junction64'.
+Creating shim for 'ldmdump'.
+Creating shim for 'Listdlls'.
+Creating shim for 'Listdlls64'.
+Creating shim for 'livekd'.
+Creating shim for 'livekd64'.
+Creating shim for 'LoadOrd'.
+Making D:\Software\PackageManagers\Scoop\shims\loadord.exe a GUI binary.
+Creating shim for 'LoadOrd64'.
+Making D:\Software\PackageManagers\Scoop\shims\loadord64.exe a GUI binary.
+Creating shim for 'LoadOrdC'.
+Creating shim for 'LoadOrdC64'.
+Creating shim for 'logonsessions'.
+Creating shim for 'logonsessions64'.
+Creating shim for 'movefile'.
+Creating shim for 'movefile64'.
+Creating shim for 'notmyfault'.
+Making D:\Software\PackageManagers\Scoop\shims\notmyfault.exe a GUI binary.
+Creating shim for 'notmyfault64'.
+Making D:\Software\PackageManagers\Scoop\shims\notmyfault64.exe a GUI binary.
+Creating shim for 'notmyfaultc'.
+Creating shim for 'notmyfaultc64'.
+Creating shim for 'ntfsinfo'.
+Creating shim for 'ntfsinfo64'.
+Creating shim for 'pendmoves'.
+Creating shim for 'pendmoves64'.
+Creating shim for 'pipelist'.
+Creating shim for 'pipelist64'.
+Creating shim for 'portmon'.
+Making D:\Software\PackageManagers\Scoop\shims\portmon.exe a GUI binary.
+Creating shim for 'procdump'.
+Creating shim for 'procdump64'.
+Creating shim for 'procexp'.
+Making D:\Software\PackageManagers\Scoop\shims\procexp.exe a GUI binary.
+Creating shim for 'procexp64'.
+Making D:\Software\PackageManagers\Scoop\shims\procexp64.exe a GUI binary.
+Creating shim for 'Procmon'.
+Making D:\Software\PackageManagers\Scoop\shims\procmon.exe a GUI binary.
+Creating shim for 'PsExec'.
+Creating shim for 'PsExec64'.
+Creating shim for 'psfile'.
+Creating shim for 'psfile64'.
+Creating shim for 'PsGetsid'.
+Creating shim for 'PsGetsid64'.
+Creating shim for 'PsInfo'.
+Creating shim for 'PsInfo64'.
+Creating shim for 'pskill'.
+Creating shim for 'pskill64'.
+Creating shim for 'pslist'.
+Creating shim for 'pslist64'.
+Creating shim for 'PsLoggedon'.
+Creating shim for 'PsLoggedon64'.
+Creating shim for 'psloglist'.
+Creating shim for 'pspasswd'.
+Creating shim for 'pspasswd64'.
+Creating shim for 'psping'.
+Creating shim for 'psping64'.
+Creating shim for 'PsService'.
+Creating shim for 'PsService64'.
+Creating shim for 'psshutdown'.
+Creating shim for 'pssuspend'.
+Creating shim for 'pssuspend64'.
+Creating shim for 'RAMMap'.
+Making D:\Software\PackageManagers\Scoop\shims\rammap.exe a GUI binary.
+Creating shim for 'RDCMan'.
+Making D:\Software\PackageManagers\Scoop\shims\rdcman.exe a GUI binary.
+Creating shim for 'RegDelNull'.
+Creating shim for 'RegDelNull64'.
+Creating shim for 'regjump'.
+Creating shim for 'ru'.
+Creating shim for 'ru64'.
+Creating shim for 'sdelete'.
+Creating shim for 'sdelete64'.
+Creating shim for 'ShareEnum'.
+Making D:\Software\PackageManagers\Scoop\shims\shareenum.exe a GUI binary.
+Creating shim for 'ShellRunas'.
+Making D:\Software\PackageManagers\Scoop\shims\shellrunas.exe a GUI binary.
+Creating shim for 'sigcheck'.
+Creating shim for 'sigcheck64'.
+Creating shim for 'streams'.
+Creating shim for 'streams64'.
+Creating shim for 'strings'.
+Creating shim for 'strings64'.
+Creating shim for 'sync'.
+Creating shim for 'sync64'.
+Creating shim for 'Sysmon'.
+Creating shim for 'Sysmon64'.
+Creating shim for 'Tcpvcon'.
+Creating shim for 'Tcpview'.
+Making D:\Software\PackageManagers\Scoop\shims\tcpview.exe a GUI binary.
+Creating shim for 'Testlimit'.
+Creating shim for 'Testlimit64'.
+Creating shim for 'vmmap'.
+Making D:\Software\PackageManagers\Scoop\shims\vmmap.exe a GUI binary.
+Creating shim for 'Volumeid'.
+Creating shim for 'Volumeid64'.
+Creating shim for 'whois'.
+Creating shim for 'whois64'.
+Creating shim for 'Winobj'.
+Making D:\Software\PackageManagers\Scoop\shims\winobj.exe a GUI binary.
+Creating shim for 'ZoomIt'.
+Making D:\Software\PackageManagers\Scoop\shims\zoomit.exe a GUI binary.
+Creating shortcut for SysInternals/AccessEnum - View accesses to directories, files and registry keys (AccessEnum.exe)
+Creating shortcut for SysInternals/AdExplorer - Active Directory viewer and editor (AdExplorer.exe)
+Creating shortcut for SysInternals/AdInsight - An LDAP real-time monitoring tool (AdInsight.exe)
+Creating shortcut for SysInternals/Autologon - Bypass password screen during logon (Autologon.exe)
+Creating shortcut for SysInternals/Autoruns - View startup programs and processes (autoruns64.exe)
+Creating shortcut for SysInternals/BGInfo - Wallpaper text configurator (Bginfo64.exe)
+Creating shortcut for SysInternals/CacheSet - Control the Cache Manager's working set size (CACHESET.EXE)
+Creating shortcut for SysInternals/DebugView - View OutputDebugString and DbgPrint output (Dbgview.exe)
+Creating shortcut for SysInternals/Desktops - Create up to four virtual desktops (Desktops.exe)
+Creating shortcut for SysInternals/Disk2vhd - Create VHD files from online disk (Disk2vhd64.exe)
+Creating shortcut for SysInternals/DiskMon - Disk activity monitor (Diskmon.exe)
+Creating shortcut for SysInternals/DiskView - Graphical disk sector utility (DiskView.exe)
+Creating shortcut for SysInternals/LoadOrder - See the order in which devices are loaded (LOADORD.EXE)
+Creating shortcut for SysInternals/NotMyFault - Crash, hang, and cause kernel memory leaks (NotMyFault64.exe)
+Creating shortcut for SysInternals/PortMon - Serial and parallel port activity monitor (PORTMON.EXE)
+Creating shortcut for SysInternals/ProcessExplorer - Enhanced Task Manager (procexp64.exe)
+Creating shortcut for SysInternals/ProcessMonitor - Monitor file system, registry, process, thread and DLL activity (ProcMon.exe)
+Creating shortcut for SysInternals/RAMMap - Graphical display of memory usage (RAMMap.exe)
+Creating shortcut for SysInternals/RDCMan - Remote Desktop Connection Manager (RDCMan.exe)
+Creating shortcut for SysInternals/ShareEnum - View network shares (ShareEnum.exe)
+Creating shortcut for SysInternals/TcpView - List TCP UDP endpoints (Tcpview.exe)
+Creating shortcut for SysInternals/VMMap - View Virtual and Physical Memory (vmmap.exe)
+Creating shortcut for SysInternals/Winobj - Object Manager namespace viewer (Winobj.exe)
+Creating shortcut for SysInternals/ZoomIt - Screen magnifier for zooming and drawing on the screen (ZoomIt.exe)
+'sysinternals' (20250505) was installed successfully!
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'translucenttb' (2025.1) [64bit] from 'extras' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 04e4df|OK  |    11MiB/s|D:/Software/PackageManagers/Scoop/cache/translucenttb#2025.1#a78ef94.zip
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of TranslucentTB-portable-x64.zip ... ok.
+Extracting TranslucentTB-portable-x64.zip ... done.
+Running pre_install script...done.
+Linking D:\Software\PackageManagers\Scoop\apps\translucenttb\current => D:\Software\PackageManagers\Scoop\apps\translucenttb\2025.1
+Creating shortcut for TranslucentTB (TranslucentTB.exe)
+Persisting settings.json
+'translucenttb' (2025.1) was installed successfully!
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'windows-terminal' (1.22.11751.0) [64bit] from 'extras' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: d8357f|OK  |    40MiB/s|D:/Software/PackageManagers/Scoop/cache/windows-terminal#1.22.11751.0#f76d8d3.zip
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of Microsoft.WindowsTerminal_1.22.11751.0_x64.zip ... ok.
+Extracting Microsoft.WindowsTerminal_1.22.11751.0_x64.zip ... done.
+Running pre_install script...done.
+Running installer script...done.
+Linking D:\Software\PackageManagers\Scoop\apps\windows-terminal\current => D:\Software\PackageManagers\Scoop\apps\windows-terminal\1.22.11751.0
+Creating shim for 'WindowsTerminal'.
+Making D:\Software\PackageManagers\Scoop\shims\windowsterminal.exe a GUI binary.
+Creating shim for 'wt'.
+Making D:\Software\PackageManagers\Scoop\shims\wt.exe a GUI binary.
+Creating shortcut for Windows Terminal (WindowsTerminal.exe)
+Persisting .portable
+Persisting settings
+Running post_install script...done.
+'windows-terminal' (1.22.11751.0) was installed successfully!
+Notes
+-----
+Add Windows Terminal as a context menu option by running `reg import
+"D:\Software\PackageManagers\Scoop\apps\windows-terminal\current\install-context.reg"`
+'windows-terminal' suggests installing 'extras/vcredist2022'.
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'windows-terminal-quake' (2.0.15) [64bit] from 'anderlli0053_DEV-tools' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 84c47b|OK  |    66KiB/s|D:/Software/PackageManagers/Scoop/cache/windows-terminal-quake#2.0.15#c0304fc.jsonc
+Download: 6fb4e7|OK  |   2.6MiB/s|D:/Software/PackageManagers/Scoop/cache/windows-terminal-quake#2.0.15#b8b7ca1.zip
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of win-x64_self-contained.zip ... ok.
+Checking hash of wtq.jsonc ... ok.
+Extracting win-x64_self-contained.zip ... done.
+Linking D:\Software\PackageManagers\Scoop\apps\windows-terminal-quake\current => D:\Software\PackageManagers\Scoop\apps\windows-terminal-quake\2.0.15
+Creating shim for 'wtq'.
+Making D:\Software\PackageManagers\Scoop\shims\wtq.exe a GUI binary.
+Creating shortcut for wtq (wtq.exe)
+Running post_install script...
+
+    Directory: C:\Users\Water
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---l        03/07/2025     02:01              0 wtq.jsonc
+done.
+'windows-terminal-quake' (2.0.15) was installed successfully!
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'wireshark' (4.4.7) [64bit] from 'extras' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 88671b|OK  |    51MiB/s|D:/Software/PackageManagers/Scoop/cache/wireshark#4.4.7#973b503.7z
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of Wireshark-4.4.7-x64.exe ... ok.
+Extracting Wireshark-4.4.7-x64.exe ... done.
+Running installer script...done.
+Linking D:\Software\PackageManagers\Scoop\apps\wireshark\current => D:\Software\PackageManagers\Scoop\apps\wireshark\4.4.7
+Creating shim for 'capinfos'.
+Creating shim for 'dumpcap'.
+Creating shim for 'editcap'.
+Creating shim for 'mergecap'.
+Creating shim for 'randpkt'.
+Creating shim for 'rawshark'.
+Creating shim for 'reordercap'.
+Creating shim for 'text2pcap'.
+Creating shim for 'tshark'.
+Creating shim for 'Wireshark'.
+Making D:\Software\PackageManagers\Scoop\shims\wireshark.exe a GUI binary.
+Creating shortcut for Wireshark (Wireshark.exe)
+Persisting Data
+Running post_install script...done.
+'wireshark' (4.4.7) was installed successfully!
+Notes
+-----
+Wireshark requires the installation of Npcap. Do it manually from the 'wireshark' directory.
+D:\Software\PackageManagers\Scoop\apps\wireshark\current\npcap-installer.exe
+
+You can also install USBPcap from the 'wireshark' directory if you need the USB packets capture funcionality.
+D:\Software\PackageManagers\Scoop\apps\wireshark\current\USBPcapSetup-installer.exe
+
+If this is the first time you opted to install USBPcap, please restart and run:
+D:\Software\PackageManagers\Scoop\apps\wireshark\current\enable-usbpcap.ps1
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'WizTree' (4.26) [64bit] from 'extras' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 35aef2|OK  |    27MiB/s|D:/Software/PackageManagers/Scoop/cache/WizTree#4.26#f4c1ef5.zip
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of wiztree_4_26_portable.zip ... ok.
+Extracting wiztree_4_26_portable.zip ... done.
+Running pre_install script...done.
+Linking D:\Software\PackageManagers\Scoop\apps\WizTree\current => D:\Software\PackageManagers\Scoop\apps\WizTree\4.26
+Creating shim for 'WizTree64'.
+Making D:\Software\PackageManagers\Scoop\shims\wiztree64.exe a GUI binary.
+Creating shim for 'WizTree'.
+Making D:\Software\PackageManagers\Scoop\shims\wiztree.exe a GUI binary.
+Creating shortcut for WizTree (WizTree64.exe)
+Persisting WizTree3.ini
+'WizTree' (4.26) was installed successfully!
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'yara' (4.3.2-2150) [64bit] from 'main' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: c4ca70|OK  |    14MiB/s|D:/Software/PackageManagers/Scoop/cache/yara#4.3.2-2150#68595cb.zip
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of yara-4.3.2-2150-win64.zip ... ok.
+Extracting yara-4.3.2-2150-win64.zip ... done.
+Linking D:\Software\PackageManagers\Scoop\apps\yara\current => D:\Software\PackageManagers\Scoop\apps\yara\4.3.2-2150
+Creating shim for 'yara'.
+Creating shim for 'yarac'.
+'yara' (4.3.2-2150) was installed successfully!
+WARN  Scoop uses 'aria2c' for multi-connection downloads.
+WARN  Should it cause issues, run 'scoop config aria2-enabled false' to disable it.
+WARN  To disable this warning, run 'scoop config aria2-warning-enabled false'.
+Installing 'zentimings' (1.35) [64bit] from 'anderlli0053_DEV-tools' bucket
+Starting download with aria2 ...
+Download: Download Results:
+Download: gid   |stat|avg speed  |path/URI
+Download: ======+====+===========+=======================================================
+Download: 5f3791|OK  |   4.8MiB/s|D:/Software/PackageManagers/Scoop/cache/zentimings#1.35#1252142.zip
+Download: Status Legend:
+Download: (OK):download completed.
+Checking hash of ZenTimings_v1.35.zip ... ok.
+Extracting ZenTimings_v1.35.zip ... done.
+Linking D:\Software\PackageManagers\Scoop\apps\zentimings\current => D:\Software\PackageManagers\Scoop\apps\zentimings\1.35
+Creating shim for 'ZenTimings'.
+Making D:\Software\PackageManagers\Scoop\shims\zentimings.exe a GUI binary.
+Creating shortcut for ZenTimings (ZenTimings.exe)
+Persisting ZenTimings.exe.config
+'zentimings' (1.35) was installed successfully!
