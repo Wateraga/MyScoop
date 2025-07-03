@@ -1,0 +1,459 @@
+{
+    "buckets": [
+        {
+            "Name": "main",
+            "Source": "D:\\Software\\PackageManagers\\Scoop\\buckets\\main",
+            "Updated": "\/Date(1751501301024)\/",
+            "Manifests": 1391
+        },
+        {
+            "Name": "extras",
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": {
+                "value": "\/Date(1751488145000)\/",
+                "DisplayHint": 2,
+                "DateTime": "02 July 2025 21:29:05"
+            },
+            "Manifests": 2169
+        },
+        {
+            "Name": "versions",
+            "Source": "https://github.com/ScoopInstaller/Versions",
+            "Updated": {
+                "value": "\/Date(1751488830000)\/",
+                "DisplayHint": 2,
+                "DateTime": "02 July 2025 21:40:30"
+            },
+            "Manifests": 500
+        },
+        {
+            "Name": "nirsoft",
+            "Source": "https://github.com/ScoopInstaller/Nirsoft",
+            "Updated": {
+                "value": "\/Date(1751346540000)\/",
+                "DisplayHint": 2,
+                "DateTime": "01 July 2025 06:09:00"
+            },
+            "Manifests": 288
+        },
+        {
+            "Name": "sysinternals",
+            "Source": "https://github.com/niheaven/scoop-sysinternals",
+            "Updated": {
+                "value": "\/Date(1746497809000)\/",
+                "DisplayHint": 2,
+                "DateTime": "06 May 2025 03:16:49"
+            },
+            "Manifests": 75
+        },
+        {
+            "Name": "nerd-fonts",
+            "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
+            "Updated": {
+                "value": "\/Date(1751120509000)\/",
+                "DisplayHint": 2,
+                "DateTime": "28 June 2025 15:21:49"
+            },
+            "Manifests": 367
+        },
+        {
+            "Name": "nonportable",
+            "Source": "https://github.com/ScoopInstaller/Nonportable",
+            "Updated": {
+                "value": "\/Date(1751413742000)\/",
+                "DisplayHint": 2,
+                "DateTime": "02 July 2025 00:49:02"
+            },
+            "Manifests": 128
+        },
+        {
+            "Name": "anderlli0053_DEV-tools",
+            "Source": "https://github.com/anderlli0053/DEV-Tools",
+            "Updated": {
+                "value": "\/Date(1751503713000)\/",
+                "DisplayHint": 2,
+                "DateTime": "03 July 2025 01:48:33"
+            },
+            "Manifests": 26082
+        },
+        {
+            "Name": "kkzzhizhou_scoop-apps",
+            "Source": "https://github.com/kkzzhizhou/scoop-apps",
+            "Updated": {
+                "value": "\/Date(1751431487000)\/",
+                "DisplayHint": 2,
+                "DateTime": "02 July 2025 05:44:47"
+            },
+            "Manifests": 13836
+        },
+        {
+            "Name": "okibcn_ScoopMaster",
+            "Source": "https://github.com/okibcn/ScoopMaster",
+            "Updated": {
+                "value": "\/Date(1726703840000)\/",
+                "DisplayHint": 2,
+                "DateTime": "19 September 2024 00:57:20"
+            },
+            "Manifests": 23088
+        }
+    ],
+    "apps": [
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "7zip",
+            "Version": "24.09",
+            "Updated": "\/Date(1751501414134)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "aria2",
+            "Version": "1.37.0-1",
+            "Updated": "\/Date(1751503823453)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "AutoHotkey",
+            "Version": "2.0.19",
+            "Updated": "\/Date(1751503830210)\/"
+        },
+        {
+            "Info": "",
+            "Source": "okibcn_ScoopMaster",
+            "Name": "cinebenchr23",
+            "Version": "23.2.0.0",
+            "Updated": "\/Date(1751503837945)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "cpu-z",
+            "Version": "2.15",
+            "Updated": "\/Date(1751503840176)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "curl",
+            "Version": "8.14.1_2",
+            "Updated": "\/Date(1751503841853)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "dark",
+            "Version": "3.14.1",
+            "Updated": "\/Date(1751503843119)\/"
+        },
+        {
+            "Info": "",
+            "Source": "anderlli0053_DEV-tools",
+            "Name": "DotNetDesktopRuntime8-installer",
+            "Version": "8.0.0",
+            "Updated": "\/Date(1751503850676)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "everything",
+            "Version": "1.4.1.1028",
+            "Updated": "\/Date(1751503855938)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "exiftool",
+            "Version": "13.31",
+            "Updated": "\/Date(1751503860002)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "ffmpeg",
+            "Version": "7.1.1",
+            "Updated": "\/Date(1751503905017)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "firefox",
+            "Version": "140.0.2",
+            "Updated": "\/Date(1751502271063)\/"
+        },
+        {
+            "Info": "",
+            "Source": "anderlli0053_DEV-tools",
+            "Name": "fluent-terminal-np_ScoopInstaller",
+            "Version": "0.7.7.0",
+            "Updated": "\/Date(1751503942070)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "furmark",
+            "Version": "2.8.2.0",
+            "Updated": "\/Date(1751503944143)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "git",
+            "Version": "2.50.0.2",
+            "Updated": "\/Date(1751501433744)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "github",
+            "Version": "3.5.0",
+            "Updated": "\/Date(1751503965096)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "gpu-z",
+            "Version": "2.66.0",
+            "Updated": "\/Date(1751503967676)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "hwinfo",
+            "Version": "8.28-5770",
+            "Updated": "\/Date(1751503974788)\/"
+        },
+        {
+            "Info": "",
+            "Source": "anderlli0053_DEV-tools",
+            "Name": "imageglass",
+            "Version": "9.2.0.1208",
+            "Updated": "\/Date(1751503978205)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "innounp",
+            "Version": "2.64.5",
+            "Updated": "\/Date(1751503979274)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "librehardwaremonitor",
+            "Version": "0.9.4",
+            "Updated": "\/Date(1751503980845)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "libreoffice",
+            "Version": "25.2.4",
+            "Updated": "\/Date(1751504178214)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "localsend",
+            "Version": "1.17.0",
+            "Updated": "\/Date(1751504180123)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "mpc-be",
+            "Version": "1.8.5",
+            "Updated": "\/Date(1751505951430)\/"
+        },
+        {
+            "Info": "",
+            "Source": "nonportable",
+            "Name": "notepads-np",
+            "Version": "1.5.6.0",
+            "Updated": "\/Date(1751504186944)\/"
+        },
+        {
+            "Info": "",
+            "Source": "anderlli0053_DEV-tools",
+            "Name": "OandORegEditor-Portable",
+            "Version": "12.0.2172",
+            "Updated": "\/Date(1751504203585)\/"
+        },
+        {
+            "Info": "",
+            "Source": "anderlli0053_DEV-tools",
+            "Name": "OandOShutUp10-Portable",
+            "Version": "1.9.1444",
+            "Updated": "\/Date(1751504205409)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "oh-my-posh",
+            "Version": "26.13.0",
+            "Updated": "\/Date(1751504207340)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "paint.net",
+            "Version": "5.1.8",
+            "Updated": "\/Date(1751504213641)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "pe-sieve",
+            "Version": "0.4.1",
+            "Updated": "\/Date(1751504215255)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "powertoys",
+            "Version": "0.92.0",
+            "Updated": "\/Date(1751504321401)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "prime95",
+            "Version": "30.19b20",
+            "Updated": "\/Date(1751504325932)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "pwsh",
+            "Version": "7.5.2",
+            "Updated": "\/Date(1751504362367)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "python",
+            "Version": "3.13.5",
+            "Updated": "\/Date(1751504399716)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "qbittorrent",
+            "Version": "5.1.2",
+            "Updated": "\/Date(1751506978790)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "QuickCPU",
+            "Version": "5.1.0.0",
+            "Updated": "\/Date(1751504406726)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "rtss",
+            "Version": "7.3.6",
+            "Updated": "\/Date(1751504413664)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "spotify",
+            "Version": "1.2.66.447.g4e37e896",
+            "Updated": "\/Date(1751504425042)\/"
+        },
+        {
+            "Info": "",
+            "Source": "anderlli0053_DEV-tools",
+            "Name": "ss",
+            "Version": "6.1",
+            "Updated": "\/Date(1751504426148)\/"
+        },
+        {
+            "Info": "",
+            "Source": "anderlli0053_DEV-tools",
+            "Name": "startallback",
+            "Version": "3.6.10",
+            "Updated": "\/Date(1751504427189)\/"
+        },
+        {
+            "Info": "",
+            "Source": "anderlli0053_DEV-tools",
+            "Name": "steam_ScoopInstaller",
+            "Version": "nightly-20250703",
+            "Updated": "\/Date(1751507753252)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "stremio",
+            "Version": "4.4.168",
+            "Updated": "\/Date(1751505963594)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "sudo",
+            "Version": "0.2020.01.26",
+            "Updated": "\/Date(1751503860543)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "sysinternals",
+            "Version": "20250505",
+            "Updated": "\/Date(1751504447681)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "translucenttb",
+            "Version": "2025.1",
+            "Updated": "\/Date(1751504448900)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "windows-terminal",
+            "Version": "1.22.11751.0",
+            "Updated": "\/Date(1751504450884)\/"
+        },
+        {
+            "Info": "",
+            "Source": "anderlli0053_DEV-tools",
+            "Name": "windows-terminal-quake",
+            "Version": "2.0.15",
+            "Updated": "\/Date(1751504493824)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "wireshark",
+            "Version": "4.4.7",
+            "Updated": "\/Date(1751504501325)\/"
+        },
+        {
+            "Info": "",
+            "Source": "extras",
+            "Name": "WizTree",
+            "Version": "4.26",
+            "Updated": "\/Date(1751504503709)\/"
+        },
+        {
+            "Info": "",
+            "Source": "main",
+            "Name": "yara",
+            "Version": "4.3.2-2150",
+            "Updated": "\/Date(1751504504883)\/"
+        },
+        {
+            "Info": "",
+            "Source": "anderlli0053_DEV-tools",
+            "Name": "zentimings",
+            "Version": "1.35",
+            "Updated": "\/Date(1751504506274)\/"
+        }
+    ]
+}
