@@ -1,0 +1,72 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [],
+    "copyFormatting": "none",
+    "copyOnSelect": true,
+    "defaultProfile": "{a25c7541-694c-4afe-b2d7-e86d0b29a138}",
+    "initialCols": 200,
+    "initialRows": 40,
+    "keybindings": 
+    [
+        {
+            "id": "Terminal.CopyToClipboard",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "Terminal.PasteFromClipboard",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "Terminal.DuplicatePaneAuto",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "newTabPosition": "afterCurrentTab",
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "Dark+",
+            "experimental.repositionCursorWithMouse": false,
+            "opacity": 60,
+            "scrollbarState": "hidden",
+            "snapOnInput": true,
+            "useAcrylic": true
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "commandline": "D:\\Software\\PackageManagers\\Scoop\\apps\\pwsh\\current\\pwsh.exe",
+                "experimental.rightClickContextMenu": false,
+                "guid": "{a25c7541-694c-4afe-b2d7-e86d0b29a138}",
+                "hidden": false,
+                "icon": "C:\\WINDOWS\\System32\\@AdvancedKeySettingsNotification.png",
+                "name": "Pwsh",
+                "startingDirectory": "%USERPROFILE%"
+            }
+        ]
+    },
+    "rendering.graphicsAPI": "direct3d11",
+    "schemes": [],
+    "themes": [],
+    "useAcrylicInTabRow": true
+}
